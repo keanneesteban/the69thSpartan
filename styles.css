@@ -34,7 +34,7 @@ img {
 
 .hidden {
     opacity: 0;
-    transition: all 2s;
+    transition: all .5s;
     filter: blur(5px);
     transform: translateX(-100%);
 }
@@ -55,7 +55,7 @@ img {
 }
 
 .items:nth-child(3) {
-    transition-delay: 2s;
+    transition-delay: 1s;
 }
 
 
