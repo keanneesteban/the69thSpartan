@@ -101,7 +101,29 @@ a {
 
 
 @media (max-width: 414px) {
+
+
     p {
         width: 22rem;
     }
+
+    .message-img {
+        width: 34rem;
+        height: 102rem;
+    }
+
+    .letter.hidden {
+        width: 18rem;
+        font-size: 1rem;
+    }
+
+    .backToIndex {
+        width: 18rem;
+    }
+
+    .backToMain {
+        width: 10rem;
+    }
+
+
 }
