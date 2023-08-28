@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the69thSpartan</title>
+    <link href="index.html">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+
+    <!-- CSS for Form only -->
+    <style>
+        .form-section  {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            z-index: -1;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+            top: -10rem;
+        }
+
+        .fill-out-form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        form { 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; }
+
+        .form-img {
+            width: 25rem;
+            height: 50rem;
+        }
+
+        .text-box {
+            background-color: transparent;
+            border: none;
+            font-family: 'IM Fell English SC';
+            font-size: 1rem;
+            resize: none;
+            border-radius: 5px;
+        }
+
+        ::placeholder {
+            color: black;
+        }
+
+
+        .submit { 
+            margin-top: 2rem;
+            width: 10rem;
+            font-family: 'IM Fell English SC';
+            border-radius: 50px;
+            background-color: transparent;
+            border: 1px solid #f1c37d;
+            font-size: 1rem;
+        }
+
+        .backToHome { 
+            font-family: 'IM Fell English SC'; 
+            background-color: #f1c37d; }
+
+        .button-div {
+            margin-top: 5rem;
+        }
+
+
+    </style>
+
+
+</head>
+
+<body>
+    <section class="form-section">
+        <div class="form hidden">
+            <img class="form-img hidden" src="/assets/istockphoto-177787087-612x612-removebg-preview.png" alt="">
+        </div>
+    </section>
+
+    <section class="fill-out-form">
+        <form action="https://formsubmit.co/keanneesteban7@gmail.com" method="POST">
+            <textarea required class="text-box hidden" id="" name="message" cols="30" rows="24" placeholder="Compose your response in this space, and I shall arrange for Bankrup to dispatch it using a virtual raven for delivery."></textarea>
+            <input class="submit" type="submit" value="give to bankrup">
+        </form>
+        <div class="button-div">
+            <a href="index.html"><button class="backToHome">To return to the initial parchment, grant your gaze here</button></a>
+        </div>
+    </section>
+
+</body>
+
+</html>
