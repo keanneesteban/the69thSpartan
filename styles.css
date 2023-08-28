@@ -98,3 +98,10 @@ a {
 
 
 /* STOPS HERE this is the CSS for the message.html link */
+
+
+@media (max-width: 414px) {
+    p {
+        width: 22rem;
+    }
+}
