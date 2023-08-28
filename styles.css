@@ -108,12 +108,12 @@ a {
     }
 
     .message-img {
-        width: 34rem;
-        height: 106rem;
+        width: 25rem;
+        height: 118rem;
     }
 
     .letter.hidden {
-        width: 18rem;
+        width: 14rem;
         font-size: 1rem;
     }
 
